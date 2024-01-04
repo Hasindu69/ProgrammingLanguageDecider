@@ -37,7 +37,7 @@ class MainApp
         ProgrammingLanguage python = new ProgrammingLanguage
         {
             Name = "Python",
-            PrimaryPurpose = Purpose.WebDevelopment,
+            PrimaryPurpose = Purpose.DataAnalysis,
             PerformanceScore = 8,
             ScalabilityScore = 7,
             CommunityScore = 9
@@ -52,23 +52,42 @@ class MainApp
             CommunityScore = 9
         };
 
+        //Adding a Dictionary
+        Dictionary<string, int> languageScores = new Dictionary<string, int>();
+
         //User requirements
         Purpose userPurpose = Purpose.WebDevelopment;
-        int userPerformance = 7;
-        int userScalability = 8;
+
+        int userPerformance = 6;
+        int userScalability = 3;
         int userCommunityScore = 9;
 
         if (python.MatchesPurpose(userPurpose))
         {
             int pythonScore = python.CalculateTotalScore(userPerformance, userScalability, userCommunityScore);
-            Console.WriteLine($"Based on your requirements, Python Scored {pythonScore}. It might be a good fit");
+            languageScores["Python"] = pythonScore;
         }
         
         if (JavaScript.MatchesPurpose(userPurpose))
         {
             int JavaScriptScore = JavaScript.CalculateTotalScore(userPerformance, userScalability, userCommunityScore);
-            Console.WriteLine($"Based on your requirements, Javascript Scored {JavaScriptScore}. It might be a good fit");
+            languageScores["JavaScript"] = JavaScriptScore;
         }
 
+
+        //Find the language with the highest score
+        int highestScore = int.MinValue;
+        string suggestedLanguage = "";
+
+        foreach(var kvp in languageScores)
+        {
+            if(kvp.Value > highestScore)
+            {
+                highestScore = kvp.Value;
+                suggestedLanguage = kvp.Key;
+            }
+        }
+
+        Console.WriteLine($"Based on your requirements, {suggestedLanguage} scored {highestScore}. It might be a good fit!");
     }
 }
