@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\bin\Debug\net6.0\LanguageDecider.exe
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\bin\Debug\net6.0\LanguageDecider.deps.json
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\bin\Debug\net6.0\LanguageDecider.runtimeconfig.json
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\bin\Debug\net6.0\LanguageDecider.dll
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\bin\Debug\net6.0\LanguageDecider.pdb
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\obj\Debug\net6.0\LanguageDecider.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\obj\Debug\net6.0\LanguageDecider.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\obj\Debug\net6.0\LanguageDecider.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\obj\Debug\net6.0\LanguageDecider.AssemblyInfo.cs
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\obj\Debug\net6.0\LanguageDecider.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\obj\Debug\net6.0\LanguageDecider.dll
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\obj\Debug\net6.0\refint\LanguageDecider.dll
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\obj\Debug\net6.0\LanguageDecider.pdb
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\obj\Debug\net6.0\LanguageDecider.genruntimeconfig.cache
+C:\Users\DELL\Desktop\LanguageDecider\LanguageDecider\LanguageDecider\obj\Debug\net6.0\ref\LanguageDecider.dll
