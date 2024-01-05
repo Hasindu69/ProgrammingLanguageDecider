@@ -56,11 +56,14 @@ class MainApp
         Dictionary<string, int> languageScores = new Dictionary<string, int>();
 
         //User requirements
-        Purpose userPurpose = Purpose.WebDevelopment;
+        Purpose userPurpose = Purpose.DataAnalysis;
 
-        int userPerformance = 6;
-        int userScalability = 3;
-        int userCommunityScore = 9;
+        Console.WriteLine("Enter your Performance rate: ");
+        int userPerformance = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter your Scalability rate: ");
+        int userScalability = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter your Community rate: ");
+        int userCommunityScore = Convert.ToInt32(Console.ReadLine());
 
         if (python.MatchesPurpose(userPurpose))
         {
